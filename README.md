@@ -1,7 +1,8 @@
 # Manufacturing-Analysis-PowerBI-Dashboard
 Enhancing Manufacturing Efficiency Through Data-Driven Insights
 ___________________________________________________________________________________________________________________________________________________
-📸 **Dashboard Preview**
+📸 **Dashboard Preview**  
+
 **Overview Dashboard**
 <img width="1065" height="595" alt="image" src="https://github.com/user-attachments/assets/dadcf182-942c-4a2c-ae06-a937613b7fbc" />
 
@@ -37,10 +38,47 @@ ________________________________________________________________________________
 
 **📂 Datasets Used**
 
-**1. Manufacturing Production Data** → ManufacturingDataset1.xlsx
+**1. Manufacturing Production Data** → ManufacturingDataset1.xlsx      
 Columns: ProductID, ProductType, ProductionDate, ProductionCost, CountryOfOrigin, QuantityProduced, WarehouseLocation
 
-**2. Employee Performance Metrics** → ManufacturingDataset2.xlsx
-
+**2. Employee Performance Metrics** → ManufacturingDataset2.xlsx     
 Columns: EmployeeID, Department, HireDate, Salary, CountryOfOperation, ProductID, PerformanceRating, Employee Training Record
+___________________________________________________________________________________________________________________________________________________
+
+**🔎 Part 1: Data Cleaning, Modeling, and DAX**     
+Key analysis steps performed in Power BI:
+
+✅ Import datasets and examine for anomalies or inconsistencies     
+✅ Handle missing and irrelevant data; remove duplicates  
+✅ Merge datasets using ProductID as the key  
+✅ Normalize data types and categorize product types  
+✅ Analyze production costs (average cost per product type, cost efficiency)  
+✅ Examine employee distribution across departments and countries  
+✅ Analyze performance ratings and correlations with salaries  
+✅ Warehouse efficiency analysis (average quantity stored per location)  
+✅ Trends in salaries, production volume, and product lifecycle  
+✅ Advanced DAX measures: predictive modeling for product demand, cost efficiency, and time-series forecasting  
+✅ Employee training records transformed to extract training dates and types  
+✅ Identify anomalies in production and cost data  
+**Insights derived:** Top-performing departments, high-cost product types, optimal warehouse utilization, correlation between performance and salaries, seasonal production trends, and cost-efficiency metrics.
+
+___________________________________________________________________________________________________________________________________________________
+
+**📊 Part 2: Power BI Dashboard**     
+Key features implemented:
+
+- Comprehensive Manufacturing Overview – Production costs, quantities, and efficiency metrics
+- Employee Analytics Section – Department distribution, performance ratings, salary trends
+- Interactive Filters & Slicers – Drill down by department, country, product type, and date
+- Time-Based Analysis – Trends over time for production, costs, and employee metrics
+- Visualizations – Line charts, bar charts, KPI indicators, and interactive tables
+- Data Storytelling – Highlights trends, anomalies, and actionable insights to inform business decisions
+___________________________________________________________________________________________________________________________________________________
+
+**📌 Tools & Skills Demonstrated**  
+- **Power BI** – Data modeling, dashboard creation
+- **DAX** – Measures for cost analysis, predictive modeling, performance metrics
+- **Data Cleaning & Transformation** – Handling missing data, merging datasets, categorization
+- **Visualization & Storytelling** – Interactive dashboards, trend analysis, KPI tracking
+- **Time-Series Analysis & Forecasting** – Production costs, product demand prediction
 
