@@ -1,5 +1,7 @@
 # Manufacturing-Analysis-PowerBI-Dashboard
 Enhancing Manufacturing Efficiency Through Data-Driven Insights
+<img width="1326" height="552" alt="image" src="https://github.com/user-attachments/assets/a25570c1-8724-4032-b6e4-d05579505716" />
+
 ___________________________________________________________________________________________________________________________________________________
 📸 **Dashboard Preview**  
 
